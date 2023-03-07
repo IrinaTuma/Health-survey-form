@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Your health survey form</title>
+    <meta charset="utf-8" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 id="title">Your health survey form</h1>
+    <p id="description">Thank you for taking the time to fill up this form. It helps to save time during doctor's appointment</p>
+
+    <form id="survey-form" method="post" action="https://register-testing.com">
+
+      <!-- contact information block -->
+      <div class="contact-information">
+        <!-- name -->
+      <div>
+        <label for="name" id="name-label">Name<input id="name" class="name" type="text" placeholder="Enter your name" required></label>
+      </div>
+
+        <!-- email -->
+      <div> 
+        <label for="email" id="email-label">Email<input id="email" type="email" placeholder="Enter your email" required></label>
+      </div>
+
+        <!-- phone -->
+      <div>
+        <label for="phone" id="phone-label">Phone<input id="phone" type="number" placeholder="Enter your phone number" pattern="[0-9]{5,15}" required></label>
+      </div>
+
+        <!-- age -->
+      <div>
+        <label for="number" id="number-label">Age<input id="number" type="number" min="7" max="120" placeholder="Your age"></label> 
+      </div>
+      </div>
+
+      <!-- dropdown (body part) -->      
+      <div>
+        <label for="dropdown" id="dropdown-label">In which part of the body are your symptoms?</label>
+        <select name="dropdown" id="dropdown">
+          <option value="Chose a body part" disabled selected>Chose a body part</option>
+          <option value="Head">Head</option>
+          <option value="Face">Face</option>
+          <option value="Neck">Neck</option>
+          <option value="Hands">Hands</option>
+          <option value="Breast">Breast</option>
+          <option value="Bell">Bell</option>
+          <option value="Genitals">Genitals</option>
+          <option value="Legs">Legs</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+        <!-- checkbox (symthoms) -->
+      <div>
+        <p>Please select, which symptoms do you feel</p>
+        <label for="symptom1"> <input type="checkbox" id="symptom1" value="pain" name="symptoms"> Pain</label>
+        <label for="symptom2"><input type="checkbox" id="symptom2" value="itching" name="symptoms"> Itching</label>
+        <label for="symptom3"><input type="checkbox" id="symptom3" value="tingling" name="symptoms"> Tingling</label>
+        <label for="symptom4"><input type="checkbox" id="symptom4" value="rash" name="symptoms"> Skin changes</label>
+        <label for="symptom5"><input type="checkbox" id="symptom5" value="seal" name="symptoms"> Seal</label>
+        <label for="symptom6"><input type="checkbox" id="symptom6" value="other" name="symptoms"> Other</label>
+      </div>
+
+      
+      <!-- radio (intensity) -->       
+      <div>
+        <p>How much do your symptoms bother you?</p>
+        <label for="intensity1"><input type="radio" value="heavy" name="intensity" id="intensity1"> Heavy</label>
+        <label for="intensity2"><input type="radio" value="average" name="intensity" id="intensity2"> Average</label>
+        <label for="intensity3"><input type="radio" value="weak" name="intensity" id="intensity3"> Weak</label>
+      </div>
+
+      <!-- textarea (additional comments) -->
+      <div>
+        <p>You can write additional information</p>
+        <textarea id="comments" name="comments" rows="3" cols="50" placeholder="Enter your comment here..."></textarea>
+      </div>
+
+      <!-- button (submit) -->
+      <div>
+        <label for="submit">
+          <input type="submit" id="submit" value="Submit">
+        </label>
+      </div> 
+
+    </form>
+  </body>
+
+
+</html>
