@@ -1,0 +1,117 @@
+body {
+  background-image: linear-gradient(15deg,rgba(25, 51, 110, 0.8), rgba(26, 36, 60, 1)), url(https://www.mdanderson.org/research/departments-labs-institutes/departments-divisions/genomic-medicine/jcr:content/heroparsys/herodescription/lvpimage.resize.high.dir.jpg/1645806498561.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  font-family: Helvetica, Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(26, 36, 60, 1);
+}
+
+h1, #description {
+  text-align: center;
+  color: rgba(231, 236, 247, 0.9);
+  width: 80vw;
+}
+
+h1 {
+  margin: 1.5em auto 0.5em;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#description {
+  margin: 0.5em auto 2.5em;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+p {
+    font-weight: 600;
+    color: rgba(25, 51, 110, 0.8);
+}
+
+form {
+  background-color: rgba(231, 236, 247, 0.8);
+  padding: 20px 40px;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 730px;
+  width: 80vw;
+  border-radius: 2px;
+}
+
+div {
+  display: block;
+  margin: 2em 0;
+}
+
+.contact-information {
+  padding-bottom: 1.5em;
+  margin-bottom: 3em;
+  border-bottom: 3px solid rgba(25, 51, 110, 0.6);
+}
+
+.contact-information label, #dropdown-label {
+  font-weight: 600;
+  color: rgba(25, 51, 110, 0.8);
+}
+
+label {
+  display: block;
+  margin: 1em 0;
+  font-size: 1em;
+  line-height: 2.0;
+}
+
+input, textarea, select {
+  width: 100%;
+  min-height: 1.4em;
+  padding: 0.8em;
+  border-radius: 2px;
+}
+
+input, textarea, select {
+  background-color: white;
+  border: none;
+  color: rgb(25, 51, 110);
+  font-size: 0.9em;
+  outline:none;
+  
+}
+
+input::placeholder, textarea::placeholder, select::placeholder {
+  color: rgba(25, 51, 110, 0.8);
+  }
+
+input:focus, textarea:focus, select:focus {
+  border:3px solid rgba(25, 51, 110, 0.6);
+}
+
+input[type=checkbox], input[type=radio] {
+  width: auto;
+}
+
+input[type=submit] {
+display: block;
+width: 40%;
+min-width: 200px;
+height: 3.5em;
+margin: 2.5em auto 0;
+background-color: rgb(25, 51, 110);
+color: white;
+font-size: 18px;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(25, 51, 110, 0.8);
+  border:none;
+}
+
+input[type=submit]:active {
+  background-color: rgb(26, 36, 60);
+  border: none;
+  color: rgb(123, 145, 179);
+}
