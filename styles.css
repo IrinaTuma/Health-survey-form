@@ -71,9 +71,6 @@ input, textarea, select {
   min-height: 1.4em;
   padding: 0.8em;
   border-radius: 2px;
-}
-
-input, textarea, select {
   background-color: white;
   border: none;
   color: rgb(25, 51, 110);
@@ -88,6 +85,10 @@ input::placeholder, textarea::placeholder, select::placeholder {
 
 input:focus, textarea:focus, select:focus {
   border:3px solid rgba(25, 51, 110, 0.6);
+}
+
+textarea {
+  resize:none;
 }
 
 input[type=checkbox], input[type=radio] {
