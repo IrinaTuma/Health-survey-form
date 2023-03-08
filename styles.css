@@ -68,8 +68,8 @@ label {
 
 input, textarea, select {
   width: 100%;
-  min-height: 2em;
-  padding: 0.8em;
+  min-height: 3em;
+  padding: 0.8em 0 0.8em 1em;
   border-radius: 2px;
   background-color: white;
   border: none;
@@ -77,6 +77,7 @@ input, textarea, select {
   font-size: 0.9em;
   outline:none;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 input::placeholder, textarea::placeholder, select::placeholder {
@@ -102,7 +103,7 @@ input[type=checkbox], input[type=radio] {
 .colomn {
   display: inline-block;
   column-gap: 100px;
-  margin: 0 5em -1em 0;
+  margin: 0 5em 0 0;
 }
 
 input[type=submit] {
