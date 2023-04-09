@@ -108,14 +108,15 @@ input[type=checkbox], input[type=radio] {
 }
 
 input[type=submit] {
-display: block;
-width: 40%;
-min-width: 200px;
-height: 3.5em;
-margin: 2.5em auto 0;
-background-color: rgb(25, 51, 110);
-color: white;
-font-size: 18px;
+  display: block;
+  width: 40%;
+  min-width: 200px;
+  height: 3.5em;
+  margin: 2.5em auto 0;
+  padding: 0;
+  background-color: rgb(25, 51, 110);
+  color: white;
+  font-size: 18px;
 }
 
 input[type=submit]:hover {
