@@ -90,6 +90,7 @@ input:focus, textarea:focus, select:focus {
 
 textarea {
   resize: none;
+  font-family: Helvetica, Sans-serif;
 }
 
 input[type=checkbox], input[type=radio] {
